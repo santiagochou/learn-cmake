@@ -1,0 +1,3 @@
+D:/Santiago/Github/learn-cmake/03-code-generation/configure-files/build/CMakeFiles/cf_example.dir
+D:/Santiago/Github/learn-cmake/03-code-generation/configure-files/build/CMakeFiles/ALL_BUILD.dir
+D:/Santiago/Github/learn-cmake/03-code-generation/configure-files/build/CMakeFiles/ZERO_CHECK.dir

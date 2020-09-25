@@ -1,0 +1,10 @@
+^D:\SANTIAGO\GITHUB\LEARN-CMAKE\03-CODE-GENERATION\CONFIGURE-FILES\BUILD\CMAKEFILES\12C4812D73E9D277D8303EF83175665B\GENERATE.STAMP.RULE
+setlocal
+C:\Playground\Softwares\CMake\bin\cmake.exe -SD:/Santiago/Github/learn-cmake/03-code-generation/configure-files -BD:/Santiago/Github/learn-cmake/03-code-generation/configure-files/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Santiago/Github/learn-cmake/03-code-generation/configure-files/build/cf_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
